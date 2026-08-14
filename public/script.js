@@ -141,7 +141,7 @@ generateAIRecipe.addEventListener("click", async () => {
         console.error("AI Recipe Error:", error);
 
         aiRecipeResult.innerHTML = `
-            <p>❌ ${error.message}</p>
+            <p> ${error.message}</p>
         `;
 
         aiRecipeResult.style.display = "block";
