@@ -174,7 +174,6 @@ form button[type="submit"]:hover {
     font-weight: 700;
 }
 
-/* View Recipe button */
 
 .recipe button {
     font-size: 17px;
@@ -342,8 +341,6 @@ body::-webkit-scrollbar-track {
         height: 80%;
     }
 }
-/* ================= AI RECIPE GENERATOR ================= */
-
 .ai-recipe-section {
     width: 90%;
     max-width: 900px;
