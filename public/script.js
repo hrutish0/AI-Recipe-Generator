@@ -4,8 +4,6 @@ const recipeContainer = document.querySelector(".recipe-container");
 const recipeDetailsContent = document.querySelector(".recipe-details-content");
 const recipeClosebtn = document.querySelector(".recipe-closebtn");
 
-
-//Function To fatchRecipies
 const fetchrecipe = async (query) =>{
     recipeContainer.innerHTML = "<h2>Fetching Recipies.....</h2>";
     
@@ -81,10 +79,6 @@ Searchbtn.addEventListener("click", (e)=>{
 recipeClosebtn.addEventListener("click" , ()=>{
     recipeDetailsContent.parentElement.style.display = "none";
 })
-
-// ================= AI RECIPE GENERATOR =================
-
-// ================= AI RECIPE GENERATOR =================
 
 const ingredientsInput =
     document.querySelector("#ingredientsInput");
