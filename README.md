@@ -43,5 +43,3 @@ The application combines the **TheMealDB API** for recipe discovery with the **G
 # Other
 - dotenv
 - Git & GitHub
-
-## 📂 Project Structure
