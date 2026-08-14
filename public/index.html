@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Recipe App</h1>
+            <form>
+
+                <input type="text" placeholder="Search For Meals...." class="searchbox">
+                <button type="submit" class="Searchbtn">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <main>
+        <section class="ai-recipe-section">
+
+    <div class="ai-recipe-box">
+
+        <h2>🍳 AI Recipe Generator</h2>
+
+        <p>
+            Enter the ingredients you have and let AI create a recipe for you.
+        </p>
+
+        <div class="ingredient-input">
+            <input
+                type="text"
+                id="ingredientsInput"
+                placeholder="e.g. chicken, tomato, onion, rice"
+            >
+
+            <button id="generateAIRecipe">
+                Generate Recipe
+            </button>
+        </div>
+
+        <div id="aiLoading" class="ai-loading">
+            Creating your recipe...
+        </div>
+
+        <div id="aiRecipeResult" class="ai-recipe-result"></div>
+
+    </div>
+
+</section>
+        <section>
+            <div class="recipe-container">
+                <h2>Search Your Favorite Recipe</h2>
+            </div>
+            <div class="recipe-details">
+                <button type="button" class="recipe-closebtn">Close</button>
+                <div class="recipe-details-content"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
